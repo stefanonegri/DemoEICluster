@@ -33,3 +33,7 @@ sh micro-integrator.sh -DenableManagementApi -DportOffset=15
 - Create the file [(ei.http.conf)](ei.http.conf) and copy it in the nginx conf directory.
 - run nginx
 
+## Run the demo
+- Trigger the 4 use cases as described in the demo [(DemoEI_File_RabbitMQ_DB)](https://github.com/stefanonegri/DemoEI_File_RabbitMQ_DB); when invoking the proxy services *EmployeeNotifierPollingProxy* and *GetEmployeeFromHttp* use the port 80 (nginx port).
+- Show in the log of the MI the load balancing of the services.
+
